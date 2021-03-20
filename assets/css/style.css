@@ -1,0 +1,41 @@
+/* by adding the margin will get rid of any space on the 0,0 on the left side of the page)
+Padding will change the position of the text in the box the space inbetween*/
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+/* adding a body and header rules will allow you to have a set rule */
+header {
+    padding: 20px 35px; 
+    background-color: #39a6b2;
+}
+
+/* The inline makes it all for a line, 
+the margine determines how close or far they are */
+header nav ul li { 
+    display: inline; 
+    margin: 0 30px; 
+    font-weight: lighter; 
+    font-size: 22px;
+}
+header nav {
+    float: right; 
+    margin: 7px 0;
+}
+header h1 { 
+    font-weight: bold; 
+    font-size:36px; 
+    color: #fce138; 
+    margin: 0;
+    display: inline;
+}
+
+header a { 
+    text-decoration: none; 
+    color: #fce138;
+}
+body {
+    color: #39a6b2; 
+    font-family: Helvetica, Arial, sans-serif;
+}
