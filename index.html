@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Run Buddy</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 <body>
+    <!--navigator-->
     <header>
         <h1>
             <a href="/">RUN BUDDY</a>
@@ -14,11 +14,13 @@
     <!--This <a allow you to have hypertext the blue setting to a site. Unordered list-->
         <nav>
             <ul>
+                <!--List items element-->
                 <li>
-                    <a href= "#what-we-do">What We Do</a>
+                    <!--Anchor element-->
+                    <a id="what-we-do" href= "#what-we-do">What We Do</a>
                 </li>
                 <li>
-                    <a href= "#what-you-do">What You Do</a>
+                    <a id= "what-you-do" href= "#what-you-do">What You Do</a>
                 </li>
                 <li>
                     <a href="#your-trainers">Your Trainers</a>
@@ -29,35 +31,100 @@
             </ul>
         </nav>
     </header>
-    <section> </section>
-
-    <section> 
-        <h2>What We Do</h2>
+    <!--hero/jumbotron-->
+    <section class="hero"></section>
+        <div class="hero-form">
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+            <!--add form element-->
+            <form>
+                <lable for="name">Enter full name:</lable>
+                <input type="text" placeholder="Your Name" id="name" 
+                    class="form-input" />
+                <lable for="email">Enter email address:</lable>
+                <input type="email" placeholder="Email Address" name="email" id="email" 
+                    class="form-input" />
+                <lable for="phone">Enter telephone number:</lable>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" 
+                    class-input="form-input" />
+                <p> 
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <lable for="trainer-yes">Yes</lable>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <lable for="trainer-no">No</lable>
+                </p>
+                <p>
+                    <lable for="checkbox" >
+                        I acknowledge that I am at least 18 years of age. 
+                    </lable>
+                    <input type="checkbox" name="checkpoint1" id="checkbox" />
+                </p>
+                <button type="submit">
+                    Get running!
+                </button>
+            </form>
+        </div>
     </section>
-
+<!--"what we do" section-->
+    <section>
+        
+        <h2>What We Do</h2>
+        <div>
+        <p>butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft</p>
+        </div>  
+    </section>
+<!--"what you do" section-->
     <section> 
+        <h2>What You Do</h2>
+        <div>
+            <!--insert this img element-->
+            <img src="./assets/image/step-1.svg" alt="" />
+            <h3>Step 1: Fill Out the Form Above.</h3>
+            <p>
+                You're already here, so why not?
+            </p>
+        </div>
+        
+        <div>
+            <img src="./assets/image/step-2.svg" alt="" />
+            <h3> Step 2: Consult with One of Our Trainers</h3>
+            <p>
+                Are you here to build muscle, lose weight, or just feel good?
+            </p>
+        </div>
+        
+        <div>
+            <img src="./assets/image/step-3.svg" alt="" />
+            <h3>Step 3: Get Running.</h3>
+            <p>
+                Hit the ground running (literally) once your trainer lays out your plan.
+            </p>
+        </div>
+        <div>
+            <img src="./assets/image/step-4.svg" alt="" />
+            <h3> Step 4: See Results.</h3>
+            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+        </div>
+    </section>
+    <!--"meet the trainers" section-->
+    <section>
         <h2>Meet The Trainers</h2>
     </section>
-
+    <!--"reach out " section-->
     <section> 
         <h2>Reach Out</h2>
     </section>
 
+<!--footer-->
     <footer> 
-        <h2>❤️ Made with love by Run Budd </h2>
-    </footer>
-
-        <div>Box 1</div>
-
-        <div> 
-            Box 2 
-
-            <div> Box 3
-
-                <div> Box 4</div>
-                <div> Box 5</div>
-            </div>
+        <h2>❤️ Made with love by Run Buddy </h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br /> 
+            &copy; 2019 Run Buddy, Inc. 
+        </div>
         <!--By adding the &copy you are adding the copy emoji sign-->
     </footer>
+    
 </body>
 </html>
