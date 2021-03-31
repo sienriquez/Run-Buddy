@@ -17,10 +17,10 @@
                 <!--List items element-->
                 <li>
                     <!--Anchor element-->
-                    <a id="what-we-do" href= "#what-we-do">What We Do</a>
+                    <a href= "#what-we-do">What We Do</a>
                 </li>
                 <li>
-                    <a id= "what-you-do" href= "#what-you-do">What You Do</a>
+                    <a href= "#what-you-do">What You Do</a>
                 </li>
                 <li>
                     <a href="#your-trainers">Your Trainers</a>
@@ -32,17 +32,17 @@
         </nav>
     </header>
     <!--hero/jumbotron-->
-    <section class="hero"></section>
+    <section class="hero">
         <div class="hero-form">
             <h3>Get Started Today</h3>
             <p>Fill out this form and one of our trainers will schedule a consult</p>
             <!--add form element-->
             <form>
                 <lable for="name">Enter full name:</lable>
-                <input type="text" placeholder="Your Name" id="name" 
+                <input type="text" placeholder="Your Name" name="name" id="name" 
                     class="form-input" />
                 <lable for="email">Enter email address:</lable>
-                <input type="email" placeholder="Email Address" name="email" id="email" 
+                <input type="text" placeholder="Email Address" name="email" id="email" 
                     class="form-input" />
                 <lable for="phone">Enter telephone number:</lable>
                 <input type="tel" placeholder="Phone Number" name="phone" id="phone" 
@@ -67,41 +67,38 @@
         </div>
     </section>
 <!--"what we do" section-->
-    <section>
-        <section id="what-we-do" class="intro" >
+    <section id="what-we-do" class="intro" >
             <h2 class="section-title primary-border">What We Do</h2>
-        <div>
-        <p>butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft</p>
-        </div>  
+        <p>butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO 
+            Tumblr normcore Banksy direct trade Blue 
+            Bottle chillwave you probably haven't heard of them single-origin coffee Vice 
+            fanny pack fixie Odd Future Austin 
+            fingerstache pickled twee synth Wes Anderson Thundercats viral bitters 
+            flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+        </p>
     </section>
 <!--"what you do" section-->
-    <section> 
-        <section id="what-you-do" class="steps" >
+    <section id="what-you-do" class="steps" >
             <h2 class="section-title secondary-border">What You Do</h2>
         <div>
             <!--insert this img element-->
             <img src="./assets/image/step-1.svg" alt="" />
             <h3>Step 1:<span>Fill Out the Form Above.</span></h3>
-            <p>
-                You're already here, so why not?
-            </p>
+            <p>You're already here, so why not?</p>
         </div>
         
         <div>
             <img src="./assets/image/step-2.svg" alt="" />
             <h3> Step 2:<span>Consult with One of Our Trainers</span></h3>
-            <p>
-                Are you here to build muscle, lose weight, or just feel good?
-            </p>
+            <p> Are you here to build muscle, lose weight, or just feel good?</p>
         </div>
         
         <div>
             <img src="./assets/image/step-3.svg" alt="" />
             <h3>Step 3:<span>Get Running.</span></h3>
-            <p>
-                Hit the ground running (literally) once your trainer lays out your plan.
-            </p>
+            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
         </div>
+
         <div>
             <img src="./assets/image/step-4.svg" alt="" />
             <h3> Step 4:<span>See Results.</span></h3>
@@ -109,8 +106,39 @@
         </div>
     </section>
     <!--"meet the trainers" section-->
-    <section>
-        <h2>Meet The Trainers</h2>
+    <section id="your-trainers" class= "trainers">
+        <h2 class="section-title primary-border">Meet The Trainers</h2>
+
+        <article class= "trainer" >
+            <img src="./assets/image/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pupmp iron" />
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, quis iste! Illo quasi mollitia sapiente suscipit iure, doloremque atque delectus cum voluptate consequatur nisi aliquid. Delectus vero excepturi odit consequuntur!
+                </p>
+            </div>
+        </article>
+        <article class= "trainer" >
+            <img src="./assets/image/trainer-2.jpg" alt="Joanna Gill cooling off after workout" />
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, itaque aut reiciendis quasi sunt ipsa a delectus dignissimos corrupti debitis necessitatibus ducimus, cupiditate placeat quas eius accusantium dolores iusto. Porro!
+                </p>
+            </div>
+        </article>
+        <article class= "trainer" >
+            <img src="./assets/image/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+            <div class="trainer-bio text-left">
+                <h3>Harry "the Headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora illum exercitationem officia, voluptate hic quos doloremque deserunt praesentium numquam expedita tempore, voluptas magni libero id ut est, dolore odit adipisci.
+                </p>
+            </div>
+        </article>
     </section>
     <!--"reach out " section-->
     <section> 
@@ -121,11 +149,10 @@
     <footer> 
         <h2>❤️ Made with love by Run Buddy </h2>
         <div>
-            <a href="#">Read Our Privacy Policy</a><br /> 
+             <a href="#">Read Our Privacy Policy</a><br /> 
             &copy; 2019 Run Buddy, Inc. 
         </div>
         <!--By adding the &copy you are adding the copy emoji sign-->
-    </footer>
-    
+    </footer> 
 </body>
 </html>
