@@ -1,6 +1,4 @@
 .hero {
-    background-image: url("../image/hero-bg.jpeg");
-    background-size: cover;
     background-position: bottom;
     position: relative;
     height: auto;
@@ -20,23 +18,25 @@
 
 .secondary-content {
     width: 80%;
-    margin: center;
+    margin: 0 auto;
+    /* this margin will center the page */
     color: #024e76;
 } 
 .secondary-content h3 {
     font-size: 25px;
-    margin: 20px 20px 0 0;
+    margin: 20px 0;
+    /* by jusgt adding the two it will allow it to have all the other ones */
 }
 .secondary-content p {
     font-size: 16px;
     line-height: 1.5;
-    margin: 20px 20px 0 0;
+    margin: 20px 0;
 }
 .secondary-content ul {
-    margin: 15px 15px 20px 20px; 
+    margin: 15px 20px; 
 }
 .secondary-content li {
     color: #39a6b2;
-    margin: 10px 10px 0 0;
+    margin: 10px 0;
 }
   
