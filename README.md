@@ -1,1 +1,1 @@
-# Run-Bunny
+# Run Buddy Inc.
