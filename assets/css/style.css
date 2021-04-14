@@ -89,7 +89,7 @@ section {
     width: 500px;
     color: #024e76;
     /*we can also combine all border as border: solid 3px #fce138; */
-    position:absolute; 
+    position: absolute; 
     bottom: 120px;
     right: 140px;
     /* absolute will have it in the same place*/
@@ -113,7 +113,7 @@ section {
 }
 
 .hero-form label {
-    margin:0 5px;
+    margin: 0 5px;
 }
 
 .hero-form button {
