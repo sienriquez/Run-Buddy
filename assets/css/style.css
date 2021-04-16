@@ -32,19 +32,20 @@ header a {
     color: #fce138;
 }
 
-header nav {
-    margin: 7px 0;
-} 
 /* The inline makes it all for a line, 
 the margine determines how close or far they are */
-header nav ul li { 
-    display: inline; 
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a { 
     margin: 0 30px; 
     font-weight: lighter; 
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
